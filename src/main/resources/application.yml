@@ -1,3 +1,16 @@
 spring:
   application:
     name: Generic Microservice Users
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms_users
+    username: ${POSTGRESQL_USERNAME}
+    password: ${POSTGRESQL_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          time_zone: America/Sao_Paulo
