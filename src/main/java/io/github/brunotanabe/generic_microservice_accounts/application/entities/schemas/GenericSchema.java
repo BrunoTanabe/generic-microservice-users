@@ -1,6 +1,6 @@
-package io.github.brunotanabe.generic_microservice_users.application.entities.schemas;
+package io.github.brunotanabe.generic_microservice_accounts.application.entities.schemas;
 
-import io.github.brunotanabe.generic_microservice_users.utils.listeners.LowerCaseListener;
+import io.github.brunotanabe.generic_microservice_accounts.util.listeners.LowerCaseListener;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;

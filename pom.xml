@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.github.brunotanabe</groupId>
-    <artifactId>generic-microservice-users</artifactId>
+    <artifactId>generic-microservice-accounts</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Generic Microservice Users</name>
-    <description>O generic-microservice-users é um microsserviço responsável pela administração e gerenciamento de
+    <name>Generic Microservice Accounts</name>
+    <description>O generic-microservice-accounts é um microsserviço responsável pela administração e gerenciamento de
         usuários dentro de um ecossistema de microsserviços. Ele também gerencia as API Keys utilizadas para
         autenticação e autorização de serviços e aplicações externas. Este serviço centraliza a lógica de controle de
         acesso e identidade, promovendo segurança, rastreabilidade e facilidade de integração entre sistemas.

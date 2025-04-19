@@ -1,7 +1,7 @@
-package io.github.brunotanabe.generic_microservice_users.utils.listeners;
+package io.github.brunotanabe.generic_microservice_accounts.util.listeners;
 
-import io.github.brunotanabe.generic_microservice_users.application.entities.dtos.ApplicationException;
-import io.github.brunotanabe.generic_microservice_users.utils.annotations.NotModifyField;
+import io.github.brunotanabe.generic_microservice_accounts.application.entities.dtos.ApplicationException;
+import io.github.brunotanabe.generic_microservice_accounts.util.annotations.NotModifyField;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import org.springframework.http.HttpStatus;

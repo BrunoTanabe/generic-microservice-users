@@ -1,4 +1,4 @@
-package io.github.brunotanabe.generic_microservice_users.application.entities.dtos;
+package io.github.brunotanabe.generic_microservice_accounts.application.entities.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

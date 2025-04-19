@@ -2,8 +2,8 @@
 
 The following was discovered as part of building this project:
 
-* The original package name 'io.github.brunotanabe.generic-microservice-users' is invalid and this project uses '
-  io.github.brunotanabe.generic_microservice_users' instead.
+* The original package name 'io.github.brunotanabe.generic-microservice-accounts' is invalid and this project uses '
+  io.github.brunotanabe.generic_microservice_accounts' instead.
 
 # Getting Started
 

@@ -1,4 +1,4 @@
-package io.github.brunotanabe.generic_microservice_users.utils.annotations;
+package io.github.brunotanabe.generic_microservice_accounts.util.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
