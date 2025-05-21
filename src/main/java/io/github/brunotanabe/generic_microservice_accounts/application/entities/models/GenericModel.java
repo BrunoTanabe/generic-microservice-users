@@ -1,4 +1,4 @@
-package io.github.brunotanabe.generic_microservice_accounts.application.entities.schemas;
+package io.github.brunotanabe.generic_microservice_accounts.application.entities.models;
 
 import io.github.brunotanabe.generic_microservice_accounts.util.listeners.LowerCaseListener;
 import jakarta.persistence.*;
@@ -13,20 +13,20 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 /**
- * The Abstract Class GenericSchema.
- * The GenericSchema abstract class is responsible for defining the default basic structure of the entities in the system.
+ * The Abstract Class GenericModel.
+ * The GenericModel abstract class is responsible for defining the default basic structure of the entities in the system.
  *
  * @Author Bruno Tanabe
  * @CreatedAt 2025-04-19
  */
 
 /**
- * The type Generic schema.
+ * The type Generic model.
  */
 @MappedSuperclass
 @EntityListeners({AuditingEntityListener.class, LowerCaseListener.class})
 @Data
-public abstract class GenericSchema implements Serializable {
+public abstract class GenericModel implements Serializable {
 
     @Column(name = "id", length = 36, updatable = false)
     @GeneratedValue(strategy = GenerationType.UUID)

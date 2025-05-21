@@ -31,3 +31,6 @@ replay_pid*
 
 # target directory
 target/
+
+# Developer notes
+notes/
